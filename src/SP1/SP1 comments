@@ -1,0 +1,9 @@
+Komposition (has-a): Find mindst ét sted hvor du allerede bruger komposition.
+Hvilke to klasser? Hvad er relationen?
+ - Character has-a Item, Weapon og Armor.
+
+Nedarving (is-a): Er der klasser der ligner hinanden — deler de felter eller metoder?
+Kunne de arve fra en fælles superklasse? Hvad ville den hedde?
+ - Weapon og Armor ville være oplagte til at arve fra en fælles en superklasse.
+   De deler felterne name og durability, og ville sandsynligvis dele flere felter samt metoder,
+   hvis spillet udvikledes yderligere. Superklassen ville hedde Gear.
